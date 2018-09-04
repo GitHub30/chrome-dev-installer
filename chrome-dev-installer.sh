@@ -2,7 +2,7 @@
 
 command -v google-chrome-unstable && exit
 
-command -v gdebi || sudo apt-get install -y gdebi
+command -v gdebi || (sudo apt-get update && sudo apt-get install -y gdebi)
 command -v gdebi || exit 1
 
 cd "$(xdg-user-dir DOWNLOAD)"

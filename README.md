@@ -4,5 +4,11 @@
 # Usage
 
 ```bash
+wget -qO - https://raw.githubusercontent.com/GitHub30/chrome-dev-installer/master/chrome-dev-installer.sh | bash
+```
+
+or
+
+```bash
 bash chrome-dev-installer.sh
 ```
