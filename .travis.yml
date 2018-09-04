@@ -1,0 +1,4 @@
+language: bash
+script:
+  - bash chrome-dev-installer.sh
+  - command -v google-chrome-unstable || exit 1
