@@ -1,4 +1,5 @@
 language: bash
+sudo: required
 script:
   - bash chrome-dev-installer.sh
   - command -v google-chrome-unstable || exit 1
